@@ -1,5 +1,6 @@
 #!/bin/bash
 
 sudo chmod +x ./**
-sudo mv *.sh /usr/local/bin/
+sudo mv ./ /usr/local/bin/
+sudo rm /usr/local/bin/setup
 
