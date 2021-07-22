@@ -1,7 +1,9 @@
 #!/bin/bash
 
+git clone https://github.com/afgalvan/git-scripts.git
+
+cd git-scripts
 sudo chmod +x ./**
 sudo mv ./* /usr/local/bin/
 sudo rm /usr/local/bin/setup
 sudo rm /usr/local/bin/README*
-
